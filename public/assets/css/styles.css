@@ -38,6 +38,40 @@
     font-weight: bold;
 }
 
+@keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+  }
+  
+  .tcontainer{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
+    background-color: #6F16AD;
+    height: 100px;
+  }
+
+  .ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 18s;
+  }
+
+  .ticker-item {
+    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 70px;
+  }
+
 .divider {
     text-align: center;
     align-content: center;
@@ -68,11 +102,11 @@
 }
 
 .products-footer {
-    background-image: url('../img/bg/footer.jpg');
+    background-color:#6F16AD;
 }
 
 .footer {
-    background-image: url('../img/bg/footer.jpg');
+    background-color:#6F16AD;
 }
 
 .footer nav ul li {

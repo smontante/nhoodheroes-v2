@@ -3469,7 +3469,7 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
 }
 
 .bd-docs .page-header {
-  min-height: 50vh;
+  min-height: 70vh;
 }
 
 .offline-doc .navbar.navbar-transparent {
@@ -5806,7 +5806,7 @@ License - nucleoapp.com/license/
 }
 
 .footer {
-  background-attachment: fixed;
+  background-color:#6F16AD;
   position: relative;
   line-height: 20px;
 }
@@ -6004,7 +6004,6 @@ License - nucleoapp.com/license/
 .card img {
   max-width: 100%;
   height: auto;
-  border-radius: 12px 12px 0 0;
 }
 
 .card[data-radius="none"] {
@@ -6046,11 +6045,6 @@ License - nucleoapp.com/license/
 .card.card-blog,
 .card.card-testimonial .card-description+.card-title {
   margin-top: 30px;
-}
-
-.card.card-blog .card-image .img,
-.card.card-testimonial .card-description+.card-title .card-image .img {
-  border-radius: 12px;
 }
 
 .card.card-blog .card-image .card-title,
