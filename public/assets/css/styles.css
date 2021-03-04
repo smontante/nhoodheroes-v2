@@ -51,7 +51,7 @@
   .ticker-wrap {
     width: 100%;
     padding-left: 100%;
-    background-color: #6F16AD;
+    background-color: #FFFFFF;
     height: 100px;
   }
 
@@ -62,14 +62,14 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: ticker;
-    animation-duration: 18s;
+    animation-duration: 8s;
   }
 
   .ticker-item {
     font-family: "Montserrat", "Helvetica", Arial, sans-serif;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-    font-size: 70px;
+    color: #6E818C;
+    font-size: 60px;
+    font-weight: bold;
   }
 
 .divider {
